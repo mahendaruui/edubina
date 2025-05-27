@@ -32,7 +32,7 @@ const MualamatSolidarityBoardingSchoolPage = () => {
       className="container mx-auto px-4 md:px-6 py-12 md:py-16"
     >
       <motion.div variants={sectionVariants} initial="hidden" animate="visible">
-        <Button asChild variant="outline" className="mb-8 group text-indigo-400 border-indigo-400 hover:bg-indigo-500 hover:text-slate-900 transition-colors duration-300">
+         <Button asChild variant="outline" className="mb-8 group text-indigo-600 border-indigo-500 hover:bg-indigo-50 hover:text-indigo-800 transition-colors duration-300">
           <Link to="/sekolah-mitra">
             <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-1 transition-transform duration-200" />
             Kembali ke Daftar Sekolah
@@ -40,10 +40,10 @@ const MualamatSolidarityBoardingSchoolPage = () => {
         </Button>
 
         <header className="mb-10 md:mb-12 text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-green-500 to-emerald-600 pb-2">
+          <h1 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-lime-500 via-green-600 to-emerald-700 pb-2">
             Mualamat Solidarity Boarding School
           </h1>
-          <p className="text-lg md:text-xl text-gray-400 mt-2 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-700 mt-2 max-w-2xl mx-auto">
             Pendidikan Holistik Berbasis Solidaritas dan Kemanusiaan.
           </p>
         </header>
@@ -51,26 +51,26 @@ const MualamatSolidarityBoardingSchoolPage = () => {
 
       <div className="grid md:grid-cols-2 gap-10 md:gap-12 items-start mb-12 md:mb-16">
         <motion.div variants={sectionVariants} initial="hidden" animate="visible">
-          <img  
-            className="rounded-xl shadow-2xl w-full h-auto object-cover aspect-video md:aspect-[4/3]" 
+          <img
+            className="rounded-xl shadow-md w-full h-auto object-cover aspect-video md:aspect-[4/3]"
             alt="Kawasan Mualamat Solidarity Boarding School"
            src="https://images.unsplash.com/photo-1685408813976-a97e3969d7cb" />
         </motion.div>
         <motion.div variants={sectionVariants} initial="hidden" animate="visible" className="space-y-6">
-          <h2 className="text-3xl font-semibold text-lime-300 mb-4">Profil Sekolah</h2>
-          <p className="text-gray-300 leading-relaxed text-justify">
+          <h2 className="text-3xl font-semibold text-lime-600 mb-4">Profil Sekolah</h2>
+          <p className="text-gray-700 leading-relaxed text-justify">
             Mualamat Solidarity Boarding School (MSBS) adalah sekolah berasrama yang unik, mengedepankan pendidikan karakter berbasis nilai-nilai solidaritas, kemanusiaan, dan kepedulian sosial. Sekolah ini bertujuan membentuk pribadi yang tidak hanya cerdas secara akademis, tetapi juga memiliki kepekaan sosial yang tinggi dan siap berkontribusi bagi masyarakat.
           </p>
-          <p className="text-gray-300 leading-relaxed text-justify">
+          <p className="text-gray-700 leading-relaxed text-justify">
             Dalam kemitraannya dengan Universitas Ubudiyah Indonesia, MSBS mendapatkan penguatan dalam pengembangan kurikulum yang integratif, program-program pengabdian masyarakat, serta peningkatan kapasitas tenaga pengajar dalam pendidikan karakter. Kolaborasi ini mendukung visi MSBS untuk menjadi pusat pendidikan yang inspiratif dan transformatif.
           </p>
         </motion.div>
       </div>
 
-      <motion.section 
-        variants={sectionVariants} 
-        initial="hidden" 
-        animate="visible" 
+      <motion.section
+        variants={sectionVariants}
+        initial="hidden"
+        animate="visible"
         className="mb-12 md:mb-16"
       >
         <h2 className="text-3xl font-semibold text-green-400 mb-8 text-center">Program Unggulan</h2>
@@ -108,4 +108,3 @@ const MualamatSolidarityBoardingSchoolPage = () => {
 };
 
 export default MualamatSolidarityBoardingSchoolPage;
-  
