@@ -54,7 +54,7 @@ const Smkn2BandaAcehPage = () => {
           <img
             className="rounded-xl shadow-md w-full h-auto object-cover aspect-video md:aspect-[4/3]"
             alt="Gedung sekolah SMKN 2 Banda Aceh"
-           src="https://images.unsplash.com/photo-1693038897445-e635653e6eb0" />
+           src="https://www.goethe.de/resources/files/jpg954/schulprofil-smkn-2-banda-aceh_bild-21-formatkey-jpg-default.jpg" />
         </motion.div>
         <motion.div variants={sectionVariants} initial="hidden" animate="visible" className="space-y-6">
           <h2 className="text-3xl font-semibold text-amber-600 mb-4">Profil Sekolah</h2>

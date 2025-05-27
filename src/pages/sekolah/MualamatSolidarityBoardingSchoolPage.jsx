@@ -54,7 +54,7 @@ const MualamatSolidarityBoardingSchoolPage = () => {
           <img
             className="rounded-xl shadow-md w-full h-auto object-cover aspect-video md:aspect-[4/3]"
             alt="Kawasan Mualamat Solidarity Boarding School"
-           src="https://images.unsplash.com/photo-1685408813976-a97e3969d7cb" />
+           src="https://i.ytimg.com/vi/v84oFv5vI7I/maxresdefault.jpg" />
         </motion.div>
         <motion.div variants={sectionVariants} initial="hidden" animate="visible" className="space-y-6">
           <h2 className="text-3xl font-semibold text-lime-600 mb-4">Profil Sekolah</h2>

@@ -54,7 +54,7 @@ const SmasBabulMaghfirahPage = () => {
           <img
             className="rounded-xl shadow-md w-full h-auto object-cover aspect-video md:aspect-[4/3]"
             alt="Gedung sekolah SMAS Babul Maghfirah"
-           src="https://images.unsplash.com/photo-1567057419565-4349c49d8a04" />
+           src="https://lh3.googleusercontent.com/p/AF1QipPfCiV_T-4x5PNENFVhQKKIEfruG8fauSM9NrGC=s680-w680-h510" />
         </motion.div>
         <motion.div variants={sectionVariants} initial="hidden" animate="visible" className="space-y-6">
           <h2 className="text-3xl font-semibold text-indigo-600 mb-4">Profil Sekolah</h2>
