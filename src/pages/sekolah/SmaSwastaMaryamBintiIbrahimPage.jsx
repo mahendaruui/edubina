@@ -53,7 +53,7 @@ const SmaSwastaMaryamBintiIbrahimPage = () => {
           <img
             className="rounded-xl shadow-md w-full h-auto object-cover aspect-video md:aspect-[4/3]"
             alt="Gedung sekolah SMA Swasta Maryam Binti Ibrahim"
-           src="https://images.unsplash.com/photo-1616202317263-d088b9b49563" />
+           src="https://i.ytimg.com/vi/x-l0QAzTScQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBBq8oLJ0hMbsDIrxqzqc9zMan8KA3" />
         </motion.div>
         <motion.div variants={sectionVariants} initial="hidden" animate="visible" className="space-y-6">
           <h2 className="text-3xl font-semibold text-teal-600 mb-4">Profil Sekolah</h2>

@@ -54,7 +54,7 @@ const SmaNegeri08BandaAcehPage = () => {
           <img
             className="rounded-xl shadow-md w-full h-auto object-cover aspect-video md:aspect-[4/3]"
             alt="Gedung sekolah SMA Negeri 08 Banda Aceh"
-           src="https://images.unsplash.com/photo-1616202317263-d088b9b49563" />
+           src="https://sman8bna.wordpress.com/wp-content/uploads/2017/11/123.jpg" />
         </motion.div>
         <motion.div variants={sectionVariants} initial="hidden" animate="visible" className="space-y-6">
           <h2 className="text-3xl font-semibold text-green-600 mb-4">Profil Sekolah</h2>
